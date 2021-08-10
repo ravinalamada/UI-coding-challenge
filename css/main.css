@@ -1,0 +1,19 @@
+.masthead {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.features-items,
+.contents-items {
+  display: flex;
+}
+
+.features-icon {
+  flex-basis: 50px;
+}
+
+.links {
+  font-weight: 600;
+  font-size: 18px;
+  color: #666666;
+}

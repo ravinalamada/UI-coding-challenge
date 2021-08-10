@@ -1,0 +1,11 @@
+@mixin flexlayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin breKpoints {
+  max-width: 1000px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

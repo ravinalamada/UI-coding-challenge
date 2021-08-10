@@ -1,0 +1,26 @@
+.header {
+  padding-block-start: 100px;
+  padding-block-end: 40px;
+  background-color: #f5f6f8;
+}
+
+.header-nav {
+}
+
+.image-wrapper {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.header-btn {
+  display: none;
+}

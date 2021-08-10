@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Serpent VPN</title>
-    <link rel="stylesheet" href="./scss/styles.scss" />
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="header">
       <div class="header-container">
-        <div class="header-wrapper">
+        <div class="image-wrapper">
           <img src="./assets/logo.svg" alt="logo" />
         </div>
         <nav class="nav header-nav">
@@ -31,7 +31,7 @@
             </li>
           </ul>
         </nav>
-        <button>Try it free</button>
+        <button class="header-btn">Try it free</button>
       </div>
     </header>
     <main>
@@ -49,41 +49,58 @@
               applications
             </h3>
           </div>
-          <div>
+          <div class="image-wrapper">
             <img src="./assets/logo_cloud.svg" alt="logo_cloud" />
           </div>
         </header>
         <section class="features">
           <ul class="list features-list">
             <li class="items features-items">
-              <img
+              <div class="features-icon">
+                <img 
                 src="./assets/icon_infrastructure.svg"
                 alt="icon_infrastructure"
               />
-              <h4 class="heading4">Lock down cloud infrastructure</h4>
+              </div>
+              
+              <div>
+                <h4 class="heading4">Lock down cloud infrastructure</h4>
               <p class="desc">
                 Reduce the number of attack vectors on your public cloud
                 infrastructure
               </p>
+              </div>
+
             </li>
             <li class="items features-items">
-              <img
+              <div class="features-icon">
+                <img 
                 src="./assets/icon_vulnerabilities.svg"
                 alt="icon_vulnerabilities"
               />
-              <h4 class="heading4">Protect against vulnerabilities</h4>
+              </div>
+              
+              <div>
+                <h4 class="heading4">Protect against vulnerabilities</h4>
               <p class="desc">
                 Protect your cloud servers against scanning for open SSH
                 vulnerabilities and logins
               </p>
+              </div>
             </li>
             <li class="items features-items">
-              <img src="./assets/icon_third_party.svg" alt="icon_third_part" />
-              <h4 class="heading4">Secure third-party services</h4>
+              <div class="features-icon">
+              <img  src="./assets/icon_third_party.svg" alt="icon_third_part" />
+
+              </div>
+              <div>
+ <h4 class="heading4">Secure third-party services</h4>
               <p class="desc">
                 Lock down access to third-party services, such as Salesforce to
                 your servers' static IP address
               </p>
+              </div>
+             
             </li>
           </ul>
         </section>
@@ -108,7 +125,9 @@
               </li>
             </ul>
           </div>
-          <div></div>
+          <div class="image-wrapper">
+            <img src="./assets/secure.svg" alt="">
+          </div>
         </section>
         <section class="contents">
           <div class="contents-wrapper">
@@ -155,18 +174,18 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="image-wrapper">
             <img src="./assets/advantages.svg" alt="advantages" />
           </div>
         </section>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="footer-container">
         <nav class="nav footer-nav">
           <ul class="list footer-list">
             <li class="items footer-items">
-              <a class="links footer-links" href="/product">Product</a>
+              <a class="links footer-links" href="/product"></a>Product</a>
             </li>
             <li class="items footer-items">
               <a class="links footer-links" href="/resources">Resources</a>
