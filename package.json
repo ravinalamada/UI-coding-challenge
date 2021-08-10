@@ -1,0 +1,19 @@
+{
+  "name": "ui-coding-challenge",
+  "version": "1.0.0",
+  "description": "Summary --- This coding challenge is designed to determine your proficiency in responsive web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinalamada/UI-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravinalamada/UI-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/ravinalamada/UI-coding-challenge#readme"
+}
